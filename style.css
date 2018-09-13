@@ -94,6 +94,11 @@ body {
   list-style: none;
   color: white;
   background-image: url("./images/OHhokkaido_IMG71991.jpg");
+  cursor: pointer;
+}
+
+.main-event-information-wrapper li:hover {
+  opacity: 0.8;
 }
 
 .main-center-wrapper {
