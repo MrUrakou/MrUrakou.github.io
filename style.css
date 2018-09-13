@@ -1,7 +1,127 @@
 body {
-  fonnt-family: cursive;
+  font-family: serif;
+  background-color: #EEFFFF;
 }
 
-.wrapper {
-  background-image: url("../images/OHT92_bieinotudukunouchi_TP_V.jpg");
+
+.header-wrapper {
+  display: flex;
+}
+
+.biei {
+  margin-right: auto;
+  display: flex;
+}
+
+.biei span {
+  margin-right: 10px;
+}
+
+.would {
+  color: #D7EEFF;
+}
+
+.you {
+  color: #fafab2
+}
+
+.like {
+  color: #EDFFBE;
+}
+
+.biei-cho {
+  color: #FFDBC9;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  width: 100px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  background-color: skyblue;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.nav-list li:hover {
+  opacity: 0.8;
+}
+
+.main-top-wrapper {
+  background-image: url("./images/OHT92_bieinotudukunouchi.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  color: #E6E6FA;
+  position: relative;
+}
+
+.information-wrapper {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.question {
+  font-size: 36px;
+  height: 24px
+}
+.sentence {
+  font-size: 18px;
+}
+
+.main-event-information-wrapper {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom:20px;
+  background-color: #FFFFEE;
+}
+
+.main-event-information-wrapper li {
+  width: 600px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 100px;
+  list-style: none;
+  color: white;
+  background-image: url("./images/OHhokkaido_IMG71991.jpg");
+}
+
+.main-center-wrapper {
+  margin-top: 20px;
+  text-align: center;
+  line-height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.welcome {
+  color: #fff;
+}
+
+.content {
+  width: 200px;
+  height: 200px;
+  background-color: skyblue;
+  margin: 0 auto;
+  background-image: url("./images/OHT68_bieinohataketomidori.jpg");
+  border-radius: 50%;
+}
+
+.briefing {
+  width: 300px;
+  height: 400px;
+  margin-top: 20px;
+  background-color: #BBFFFF;
+  background-image: url("./images/OHhokkaido_IMG42301.jpg");
+  border-radius: 8px;
 }
